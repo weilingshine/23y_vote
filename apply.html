@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.101.0">
+    <title>2023幸福企業-報名</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.6/examples/album/">
+
+    <!-- googl fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--  fonts -->
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'drj6pdj',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <link href="assets/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <header>
+      <!-- <nav class="navbar navbar-expand-md navbar-white bg-white fixed-top">
+        <img src="assets/img/1111_logo.svg" class="logo">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto justify-content-center">
+            <li class="nav-item active">
+              <a class="nav-link disabled" href="https://happiness.1111.com.tw/talent.asp">人才永續</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">幸福文章</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">年度盛事</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">最新活動</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">評選辦法</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">幸福職涯</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">CSR專區</a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav> -->
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top ">
+        <div class="container-xl">
+          <a class="navbar-brand" href="https://happiness.1111.com.tw/" target="_blank"><img src="assets/img/1111_logo.svg" class="logo"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarsExample07XL">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link disabled" href="https://happiness.1111.com.tw/talent.asp" target="_blank">人才永續</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">幸福文章</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="https://happiness.1111.com.tw/search-article.asp" target="_blank">幸福報導</a>
+                  <a class="dropdown-item" href="https://happiness.1111.com.tw/ebook-list.asp" target="_blank">幸福特刊</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://happiness.1111.com.tw/search-jobs.asp?sort=recruit" target="_blank">幸福職缺</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://happiness.1111.com.tw/search-jobs.asp?sort=recruit" target="_blank">幸福企業</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false" target="_blank">幸福企業票選</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">活動說明</a>
+                  <a class="dropdown-item" href="https://www.surveycake.com/s/09Wly" target="_blank">網友推薦</a>
+                  <a class="dropdown-item" href="https://happiness.1111.com.tw/2022event/vote/2022_winnerList_gold.asp" target="_blank">2022得獎名單</a>
+                  <a class="dropdown-item" href="https://event.1111.com.tw/event21/happiness_vote/winnerList_gold.asp" target="_blank">2021得獎名單</a>
+                  <a class="dropdown-item" href="https://event.1111.com.tw/event21/happiness_vote/winnerList_award_2019.asp" target="_blank">2019得獎名單</a>
+                </div>
+              </li>
+              
+            </ul>
+            <form class="form-inline my-2 my-md-0">
+              <input class="form-control" type="text" placeholder="企業．工作．報導" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+<main role="main">
+
+  <section class="jumbotron text-center">
+    <img src="assets/img/pc_01.jpg" width="100%" class="d-none d-md-block d-lg-block">
+    <img src="assets/img/m_01.jpg" width="100%" class=" d-xs-block d-md-none">
+    <div class="container">
+      <h1>幸福企業票選募集中</h1>
+      <p class="lead text-muted">即日起至<span>4月20日</span>止</p>
+      <p>
+        <a href="https://www.1111.com.tw/195770/" class="btn btn-red"  target="_blank">品牌報名</a>
+      </p>
+    </div>
+  </section>
+
+  <div class="purpose bg-brown">
+    <div class="container">
+      <div class="row text-center">
+        <h2>幸福企業宗旨</h2>
+        <p>近年來由於少子化，造成台灣人才短缺，日益嚴重，今為吸引年輕人，更願投入各產業，同時也激勵業者提供更好的福利及願景，才能吸引更多優秀人才，1111人力銀行特舉辦本年度最喜愛幸福企業票選活動。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="brand">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4 writing-mode order-md-2">
+          <h2>二○二三 <br>品牌報名類別</h2>
+          <p>一份工作，一個選擇。一種感動，幸福一生。<br>在這裡，找尋你的感動。</p>
+        </div>
+        <div class="col-12 col-md-8 order-md-1">
+          <img src="assets/img/brand.svg" width="100%" class="d-none d-md-block d-lg-block">
+          <img src="assets/img/brand-m.svg" width="100%" class=" d-xs-block d-md-none">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="caption bg-brown">
+    <div class="container">
+      <h2><samp>票選說明</samp> <a href="#" class="btn-red-mode" data-toggle="modal" data-target="#exampleModal">投票獎勵說明</a></h2>
+      <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade brand-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">投票頁獎勵說明</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul style="list-style-type: decimal;">
+          <li>主辦單位將於3/10(四)起，每週一至五天天抽出 10名 500元 幸運兒。</li>
+          <li>凡參與投票活動之網友皆具有抽獎資格，但每人限兌領乙次。</li>
+          <li>中獎名單將公佈於活動網頁，主辦單位不另行通知。</li>
+          <li>兌領時間給你 3/31(五)~6/30(五)止，逾期視同放棄恕不接受個人因素補領。</li>
+          <li>中獎人須依中華民國機會中獎相關規範提供個人資料以利兌領。</li>
+          <li>1111人力銀行保有活動修改及最終解釋權。</li>
+          <li>如有問題請洽(02)87871111#8823 呂小姐</li>
+    </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn modal-btn-red" data-dismiss="modal">確定</button>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="row">
+        <div class="col-12 col-md-5">
+          <h3>品牌報名</h3>
+          <p><b>時間：</b><span>即日起 ～ 4/20(四)</span></p>
+          <p><b>方式：</b>線上填表</p>
+          <p><b>報名說明：</b>因收到貴企業被推舉或主動報名之資訊，因此溫馨提醒後續排程如下。</p>
+          <h3>網路票選</h3>
+          <p><b>時間：</b><span>3/20(一)~6/25(日)</span></p>
+          <p><b>投票獎勵：</b>凡參加票選者，皆有可有資格參加天天抽幸福金活動。(票選期間每週一至週五<b>天天抽出10名 500元幸運兒</b>)</p>
+          <p><b>兌領方式：</b>每日中獎結果詳見活動網頁(中獎者須主動聯絡負責窗口，1111人力銀行不另行通知。)</p>
+          <h3>票選結果公告</h3>
+          <p><b>時間：</b><span>8/10(四)</span></p>
+          <h3>頒獎典禮</h3>
+          <p><b>時間：</b><span>9/22(五) </span></p>
+        </div>
+        <div class="col-12 col-md-7">
+          <h3>秘密客評選</h3>
+          <p><b>時間：</b><span>7/5(三)~7/20(四)</span></p>
+          <p><b>1111</b>人力銀行有超過800萬求職會員透過大數據撈取履歷上現職或曾在該
+            企業服務的會員，寄發電子問卷給會員填寫，針對各品牌福利落實程度進
+            行回覆</p>
+          <ul  style="list-style-type: decimal;">
+                <li>經廠商自薦或網友推薦了，由主辦單位評選小組針對資訊正確性、福利制度、勞資關係公開資訊進行蒐集與審核。</li>
+                <li>審核完成後進入網路票選階段，每人每天針對個別的參與品牌可投乙票，同日不可重複投給同乙家品牌，但同日可投給多家品牌，網路票選占總評比<b>60%</b>。</li>
+                <li>秘密客評選佔總評比<b>40%</b>。</li>
+                <li>ESG企業永續為加分題，若有相關資料可於報名時簡述或以<b>e-mail</b>方式另行提供給活動小組。</li>
+                <li>評選過程將邀集11大類指標性產官學專家，來共同響應活動參任顧問團，強化活動的專業度與公正性。</li>
+          </ul>
+          <h3>活動小組聯繫人</h3>
+          <p><b> (02)8787-1111轉  8823 呂小姐    8939 謝小姐   8927 高小姐</b></p>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+
+  <div class="album">
+    <div class="container">
+
+      <h2>知名品牌</h2>
+      <h4>出發吧！一切美好的生活，都從對的選擇開始。</h4>
+
+      <hr>
+
+      <div class="row">
+        <div class="col-12 col-md-3">
+          <div class="card mb-4">
+            <img src="assets/img/p_01.png" width="100%">
+            <div class="card-body">
+              <div class="album-logo">
+                <img src="assets/img/p_01logo.png">
+              </div>
+              
+              <h3>半導體製造</h3>
+              <p class="card-text">日月光半導體製造股份有限公司(中壢廠)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="card mb-4">
+            <img src="assets/img/p_02.png" width="100%">
+            <div class="card-body">
+              <div class="album-logo">
+                <img src="assets/img/p_01logo.png">
+              </div>
+
+              <h3>半導體製造</h3>
+              <p class="card-text">日月光半導體製造股份有限公司(中壢廠)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="card mb-4">
+            <img src="assets/img/p_03.png" width="100%">
+            <div class="card-body">
+              <div class="album-logo">
+                <img src="assets/img/p_01logo.png">
+              </div>
+
+              <h3>半導體製造</h3>
+              <p class="card-text">日月光半導體製造股份有限公司(中壢廠)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3">
+          <div class="card mb-4">
+            <img src="assets/img/p_04.png" width="100%">
+            <div class="card-body">
+              <div class="album-logo">
+                <img src="assets/img/p_01logo.png">
+              </div>
+
+              <h3>半導體製造</h3>
+              <p class="card-text">日月光半導體製造股份有限公司(中壢廠)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="card mb-4">
+            <img src="assets/img/p_05.png" width="100%">
+            <div class="card-body">
+              <div class="album-logo">
+                <img src="assets/img/p_01logo.png">
+              </div>
+
+              <h3>半導體製造</h3>
+              <p class="card-text">日月光半導體製造股份有限公司(中壢廠)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="card mb-4">
+            <img src="assets/img/p_06.png" width="100%">
+            <div class="card-body">
+              <div class="album-logo">
+                <img src="assets/img/p_01logo.png">
+              </div>
+
+              <h3>半導體製造</h3>
+              <p class="card-text">日月光半導體製造股份有限公司(中壢廠)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3">
+          <div class="card mb-4">
+            <img src="assets/img/p_07.png" width="100%">
+            <div class="card-body">
+              <div class="album-logo">
+                <img src="assets/img/p_01logo.png">
+              </div>
+
+              <h3>半導體製造</h3>
+              <p class="card-text">日月光半導體製造股份有限公司(中壢廠)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="card mb-4">
+            <img src="assets/img/p_08.png" width="100%">
+            <div class="card-body">
+              <div class="album-logo">
+                <img src="assets/img/p_01logo.png">
+              </div>
+
+              <h3>半導體製造</h3>
+              <p class="card-text">日月光半導體製造股份有限公司(中壢廠)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+</main>
+
+<footer class="text-muted bg-brown">
+  <div class="container-footer">
+    <p class="gotop">
+      <a href="#"><img src="assets/img/gotop.png"></a>
+    </p>
+    <div class="row footer-menu">
+      <div class="col-6 col-md-3">
+        <h3>關於幸福企業</h3>
+        <p><a href="https://www.1111.com.tw/Registered/Index?agent=ettczone_university&ReturnUrl=" target="_blank">加入會員</a></p>
+        <p><a href="https://www.1111.com.tw/Login/Index?ReturnUrl=" target="_blank">會員登入</a></p>
+        <p><a href="https://recruit.1111.com.tw/login.aspx?ref=%2fdefault.aspx" target="_blank">徵才刊登</a></p>
+        <p><a href="https://www.facebook.com/happinessjobs/" target="_blank">FB粉絲團</a></p>
+        <p><a href="https://www.1111.com.tw/help/memberRead.asp" target="_blank">隱私權保護</a></p>
+        
+      </div>
+      <div class="col-6 col-md-3">
+        <h3>幸福企業投票</h3>
+        <p><a href="#">活動說明</a></p>
+        <p><a href="https://happiness.1111.com.tw/2022event/vote/2022_winnerList_gold.asp" target="_blank">2022得獎名單</a></p>
+        <p><a href="https://event.1111.com.tw/event21/happiness_vote/winnerList_gold.asp" target="_blank">2021得獎名單</a></p>
+        <p><a href="https://event.1111.com.tw/event21/happiness_vote/winnerList_award_2019.asp" target="_blank">2019得獎名單</a></p>
+      </div>
+      <div class="col-6 col-md-3">
+        <h3>優質員工福利</h3>
+        <p><a href="https://happiness.1111.com.tw/search-jobs.asp?verify=False&fs=1003&bf=1501,1707,1500&jw=6" target="_blank">包吃包住</a></p>
+        <p><a href="https://happiness.1111.com.tw/search-jobs.asp?bf=1106&jw=5" target="_blank">三節獎金</a></p>
+        <p><a href="https://happiness.1111.com.tw/search-jobs.asp?fs=1001&bf=1803,1804,1912&jw=9" target="_blank">旅遊一把罩</a></p>
+        <p><a href="https://happiness.1111.com.tw/search-jobs.asp?fs=1005&bf=1105&jw=8" target="_blank">年終獎金</a></p>
+      </div>
+      <div class="col-6 col-md-3">
+        <h3>其他服務</h3>
+        <p><a href="https://www.jobsalary.com.tw/" target="_blank">薪資公秤</a></p>
+        <p><a href="https://marketing.1111.com.tw/" target="_blank">行銷大平台</a></p>
+        <p><a href="https://www.1111.com.tw/1000w/fanshome/discuss.asp?cat=fans" target="_blank">面試經驗談</a></p>
+      </div>
+    </div>
+    <div class="col-md-12 text-center">
+      <div class="footer-logo ">
+        <img src="assets/img/1111_logo.svg">
+      </div>
+      
+      <p class="footer-share">
+        <a href="#"><img src="assets/img/fb.svg"></a>
+        <a href="#"><img src="assets/img/line.svg"></a>
+        <a href="#"><img src="assets/img/twitter.svg"></a>
+      </p>
+    </div>
+    
+
+    
+  </div>
+  <div class="bg-footer">
+    <div class="container-footer">
+      <p>© 1111人力銀行2023幸福企業 All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.6.3.min.js"><\/script>')</script><script src="assets/js/bootstrap.bundle.min.js"></script>
+      
+  </body>
+</html>
